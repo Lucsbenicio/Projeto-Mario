@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Super Mario Bross - O Filme</title>
+  
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="./src/images/favicon.ico" type="image/x-icon">
+  
+  <link rel="stylesheet" href="./src/css/reset.css">
+  <link rel="stylesheet" href="./src/css/styles.css">
+  <link rel="stylesheet" href="./src/css/responsive.css">
+  
+</head>
+
+
+<body>
+
+   <div class="bg-video">
+    <video class="video" autoplay loop muted>
+      <source src="./src/video/video-mario.mp4">
+    </video>
+    
+  </div>  
+  
+
+    <header class="header">
+      <a>
+        <img class="logo" src="./src/images/logo-chapeu-mario.png" alt="logo chapéu mario" type="video/mp4">
+      </a>
+      
+      <nav>
+        <ul class="menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Detalhes</a></li>
+        </ul>
+        
+      </nav>
+    </header>
+    
+    
+  <main class="container">
+      <div class="info">
+        
+      <img class="image-titulo" src="./src/images/titulo.png" alt="imagem do titulo">
+
+      <p class="description">Mario é um encanador junto com seu irmão Luigi. Um dia, eles vão parar no reino dos cogumelos, governado pela Princesa Peach, mas ameaçado pelo rei dos Koopas, que faz de tudo para conseguir reinar em todos os lugares.</p>
+        
+        <button class="button-trailer">Veja o treiler</button>
+        
+      </div>
+      
+      
+      <img class="mario" src="./src/images/super-mario-chars.png">
+      
+
+    <div class="modal ">
+      <div class="content-modal">
+        <span class="close-modal">X</span>
+        <iframe
+          id="video" width="560" height="315"
+          src="https://www.youtube.com/embed/Cb4WV4aXBpk"
+          title="Treiler Oficial"
+          frameborder="1"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen>
+        </iframe>
+
+      </div>
+    </div>
+      
+  </main>
+    
+  <script src="./src/js/index.js"></script>
+  
+  </body>
+  
+  </html>
